@@ -33,6 +33,15 @@ swapon -s
 wget https://github.com/project-violet/fscm-dist/releases/download/21.12.26-merged/0.zip
 unzip 0.zip
 mv merged-0.json merged.json
+
+wget https://github.com/project-violet/fscm-dist/releases/download/21.12.26-merged/1.zip
+unzip 1.zip
+mv merged-1.json merged.json
+
+wget https://github.com/project-violet/fscm-dist/releases/download/21.12.26-merged/2.zip
+unzip 2.zip
+mv merged-0.json merged.json
+
 wget https://github.com/project-violet/fscm-dist/raw/main/fscm
 chmod 777 fscm
 wget https://raw.githubusercontent.com/project-violet/fscm-dist/main/forever.py
