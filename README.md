@@ -40,7 +40,7 @@ mv merged-1.json merged.json
 
 wget https://github.com/project-violet/fscm-dist/releases/download/21.12.26-merged/2.zip
 unzip 2.zip
-mv merged-0.json merged.json
+mv merged-2.json merged.json
 
 wget https://github.com/project-violet/fscm-dist/raw/main/fscm
 chmod 777 fscm
